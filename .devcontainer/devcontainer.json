@@ -1,4 +1,5 @@
 {
     "features": {},
-    "image": "asterinas/asterinas:0.11.3"
-  }
+    "image": "asterinas/asterinas:0.11.3",
+    "runArgs": ["--device=/dev/kvm", "--privileged"]
+}
